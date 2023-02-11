@@ -1,8 +1,10 @@
+<!-- omit in toc -->
 # Contributing
 
 Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
 
 Please note that this project is released with a [Contributor Code of Conduct](https://github.com/camunda-community-hub/community/blob/main/CODE_OF_CONDUCT.MD). By participating in this project you agree to abide by its terms.
+- [Testing Locally](#testing-locally)
 - [Issues and PRs](#issues-and-prs)
 - [Submitting a pull request](#submitting-a-pull-request)
 - [Non-Code Camunda community extension contributions](#non-code-camunda-community-extension-contributions)
@@ -12,6 +14,18 @@ Please note that this project is released with a [Contributor Code of Conduct](h
   - [Post-Code specific contributions](#post-code-specific-contributions)
   - [Help project maintainers write release notes for their extension](#help-project-maintainers-write-release-notes-for-their-extension)
 - [Resources](#resources)
+
+## Testing Locally
+
+```shell
+asdf plugin test <plugin-name> <plugin-url> [--asdf-tool-version <version>] [--asdf-plugin-gitref <git-ref>] [test-command*]
+
+#
+asdf plugin test zbctl https://github.com/camunda-community-hub/asdf-zbctl.git "zbctl version"
+```
+
+Tests are automatically run in GitHub Actions on push and PR.
+
 
 ## Issues and PRs
 

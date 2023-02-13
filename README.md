@@ -31,13 +31,13 @@ for the [asdf version manager](https://asdf-vm.com).
 
 # Install
 
-Plugin:
+Add the plugin:
 
 ```shell
-asdf plugin add zbctl https://github.com/camunda-community-hub/asdf-zbctl.git
+asdf plugin add zbctl
 ```
 
-zbctl:
+Use the plugin:
 
 ```shell
 # Show all installable versions

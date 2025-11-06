@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-GH_REPO="https://github.com/camunda/zeebe"
+GH_REPO="https://github.com/camunda-community-hub/zeebe-client-go"
 TOOL_NAME="zbctl"
 TOOL_TEST="zbctl version"
 

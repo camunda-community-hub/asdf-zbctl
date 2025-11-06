@@ -20,7 +20,7 @@
 
 # Overview
 
-This is a [zbctl](https://docs.camunda.io/docs/apis-clients/cli-client/) plugin
+This is a [zbctl](https://github.com/camunda-community-hub/zeebe-client-go/blob/main/cmd/zbctl/zbctl.md) plugin
 for the [asdf version manager](https://asdf-vm.com).
 
 `zbctl` is a command line interface to interact with Zeebe in [Camunda Platform 8](https://camunda.com/platform/).

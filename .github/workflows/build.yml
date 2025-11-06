@@ -16,7 +16,8 @@ jobs:
           - macos-latest
     runs-on: ${{ matrix.os }}
     steps:
-      - name: asdf_plugin_test
-        uses: asdf-vm/actions/plugin-test@v1
+      - name: Test asdf-zbctl plugin
+        uses: asdf-vm/actions/plugin-test@1902764435ca0dd2f3388eea723a4f92a4eb8302 # v4
         with:
           command: zbctl version
+          gitref: ${{ github.head_ref || github.ref_name }}

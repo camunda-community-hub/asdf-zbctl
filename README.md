@@ -41,7 +41,7 @@ Use the plugin:
 
 ```shell
 # Show all installable versions
-asdf list-all zbctl
+asdf list all zbctl
 
 # Install specific version
 asdf install zbctl latest
